@@ -6,4 +6,4 @@ try:
 	os.system('python3 .ninjapy '+' '.join(sys.argv[1:]))
 except Exception as E:print(E)
 finally:
-	if os.path.exists(A):os.remove(A)
+	if os.path.exists(A):os.remove(A) 
